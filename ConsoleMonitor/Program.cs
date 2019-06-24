@@ -108,7 +108,7 @@ namespace ConsoleMonitor
          * @Args String nameProcess
          * @Output Array of Process where name is nameProcess
          */
-        protected static Process[] GetProcess(String nameProcess)
+        public static Process[] GetProcess(String nameProcess)
         {
             Process[] prcesses = Process.GetProcessesByName(nameProcess);
             return prcesses;
